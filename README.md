@@ -17,8 +17,11 @@ Spark DataFrame API
 
  **Project Structure**
 pyspark-filters-practice/
+
 /README.md
+
 /pyspark_filters1.ipynb
+
 **Setup Instructions**
 
 To run this notebook:
