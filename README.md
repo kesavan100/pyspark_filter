@@ -1,11 +1,11 @@
-Project Overview
+**Project Overview**
 
 This project demonstrates basic to intermediate PySpark filtering operations using DataFrames.
 The notebook covers how to load data, apply filters using different conditions, and perform data transformations using PySpark.
 
 This project was created for hands-on practice with big data processing concepts.
 
-Technologies Used
+**Technologies Used**
 
 Python
 
@@ -15,13 +15,13 @@ Google Colab
 
 Spark DataFrame API
 
- Project Structure
+ **Project Structure**
 pyspark-filters-practice/
 │
 ├── pyspark_filters1.ipynb
 ├── README.md
 
-Setup Instructions
+**Setup Instructions**
 
 To run this notebook:
 
@@ -41,7 +41,7 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("FiltersPractice").getOrCreate()
  Concepts Covered
 
-This notebook includes:
+**This notebook includes:**
 
 Creating SparkSession
 
@@ -51,7 +51,7 @@ Using filter() and where() functions
 
 Applying single and multiple conditions
 
-Using logical operators:
+**Using logical operators:**
 
 AND (&)
 
@@ -75,9 +75,8 @@ Filtering using comparison operators:
 
 Filtering using isin()
 
-Handling null values (if included)
 
- Learning Outcome
+**Learning Outcome**
 
 After completing this notebook, you will understand:
 
@@ -87,7 +86,7 @@ How Spark processes transformations lazily
 
 How to write clean filtering logic for real-world datasets
 
- Why This Project?
+**Why This Project?**
 
 This project helps strengthen:
 
